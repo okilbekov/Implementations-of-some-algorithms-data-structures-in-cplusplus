@@ -24,7 +24,7 @@ void dfs(vector<vector<int>>& adj, int u, int p) {
 	}
 }
 
-vector<vector<int>> criticalConnections(int n, vector<vector<int>>& connections) {
+vector<pair<int, int>> criticalConnections(int n, vector<vector<int>>& connections) {
 vector<vector<int>> adj(n);
 	time.resize(n);
 	low.resize(n);
